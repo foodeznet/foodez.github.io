@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 176 48" width="176" height="48">
+  <circle cx="24" cy="24" r="21" fill="#241408"/>
+  <circle cx="17" cy="20" r="3" fill="#f6b41e"/>
+  <circle cx="31" cy="20" r="3" fill="#f6b41e"/>
+  <path d="M14 27 Q24 36 34 27" stroke="#f6b41e" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  <text x="52" y="27" font-family="Arial, sans-serif" font-weight="900" font-size="21" fill="#3a2415" letter-spacing="1">FOODEZ</text>
+  <text x="52" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="8" fill="#7a6350" letter-spacing="2.4">PIZZAS &amp; KEBABS</text>
+</svg>
