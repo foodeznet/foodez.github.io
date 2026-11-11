@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodez Longton – Pizza, Kebab i Burgery | Stoke-on-Trent</title>
+  <meta name="description" content="Foodez w Longton (Stoke-on-Trent) – codziennie świeże ciasto na pizzę, 12 rodzajów kebabów, grillowane burgery, peri-peri i boxy od £6.50. Zamów: 01782 321775 lub foodez.co.uk.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://foodez.net/">
+  <meta name="theme-color" content="#f6b41e">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Foodez Longton">
+  <meta property="og:title" content="Foodez Longton – Pizza, Kebab i Burgery | Stoke-on-Trent">
+  <meta property="og:description" content="Świeża pizza, 12 kebabów i soczyste burgery. 62 Anchor Road, Longton. Zamów: 01782 321775.">
+  <meta property="og:url" content="https://foodez.net/">
+  <meta property="og:image" content="https://foodez.net/images/hero-food.jpg">
+  <meta property="og:locale" content="pl_PL">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23f6b41e'/><text x='50' y='72' font-size='64' text-anchor='middle'>🍕</text></svg>">
+
+  <!-- Schema.org: Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Foodez",
+    "image": "https://foodez.net/images/hero-food.jpg",
+    "url": "https://foodez.net/",
+    "telephone": "+441782321775",
+    "priceRange": "£",
+    "servesCuisine": ["Pizza", "Kebab", "Burgers", "Peri Peri Chicken", "Fast Food"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "62 Anchor Road, Longton",
+      "addressLocality": "Stoke-on-Trent",
+      "postalCode": "ST3 1LH",
+      "addressCountry": "GB"
+    },
+    "sameAs": ["https://foodez.co.uk", "https://www.facebook.com/Foodez.uk"]
+  }
+  </script>
+
+  <!-- Schema.org: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "Gdzie znajduje się Foodez?", "acceptedAnswer": {"@type": "Answer", "text": "Foodez znajduje się pod adresem 62 Anchor Road, Longton, Stoke-on-Trent ST3 1LH, Wielka Brytania."}},
+      {"@type": "Question", "name": "Jak złożyć zamówienie w Foodez?", "acceptedAnswer": {"@type": "Answer", "text": "Zamówienie można złożyć telefonicznie pod numerem +44 1782 321775, online przez stronę foodez.co.uk oraz przez platformy dostaw takie jak Deliveroo i Foodhub."}},
+      {"@type": "Question", "name": "Jakie rozmiary pizzy oferuje Foodez?", "acceptedAnswer": {"@type": "Answer", "text": "Pizze dostępne są w rozmiarach 10\", 12\", 16\" i 20\". Dostępna jest także pizza 20\" half-and-half z dwoma smakami oraz opcja Create Your Own z dowolnymi 4 składnikami."}},
+      {"@type": "Question", "name": "Czy Foodez ma opcje wegetariańskie?", "acceptedAnswer": {"@type": "Answer", "text": "Tak. W menu znajdują się m.in. Vegetarian Pizza, Margherita, Veggie Burger, Salad Wrap, Vegetable Noodles, omlety oraz liczne dodatki, takie jak frytki, onion rings i mozzarella sticks."}},
+      {"@type": "Question", "name": "Co zawiera Foodez Kebab Special?", "acceptedAnswer": {"@type": "Answer", "text": "Foodez Kebab Special (£19.99) to mix doner, kurczaka, chicken tikka, steka i shish z frytkami, dwoma chlebkami pitta i puszką Pepsi, podawany w pudełku po pizzy 10\"."}},
+      {"@type": "Question", "name": "Czy w Foodez są desery i napoje?", "acceptedAnswer": {"@type": "Answer", "text": "Tak – cheesecake i chocolate fudge cake (po £3.50), 8 smaków shake'ów 16 oz (Oreo, Snickers, KitKat, Mars i inne, £5.30) oraz napoje gazowane od £1.30."}}
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --amber:#f6b41e; --amber-dark:#d99a0b; --amber-light:#ffd970;
+      --brown:#3a2415; --brown-deep:#241408; --brown-mid:#5d4028;
+      --cream:#fff9ee; --white:#ffffff; --text:#2a180c; --muted:#7a6350;
+      --radius:16px;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:86px}
+    body{font-family:"Rubik","Segoe UI",Arial,sans-serif;background:var(--cream);color:var(--text);line-height:1.6}
+    img{max-width:100%;display:block}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+    h1,h2,h3{line-height:1.2;color:var(--brown)}
+    .badge{display:inline-block;background:var(--amber);color:var(--brown-deep);font-weight:700;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;padding:6px 14px;border-radius:50px;margin-bottom:14px}
+    .section{padding:72px 0}
+    .section-head{text-align:center;max-width:680px;margin:0 auto 46px}
+    .section-head p{color:var(--muted)}
+
+    /* ===== Header ===== */
+    header{position:sticky;top:0;z-index:100;background:var(--amber);box-shadow:0 2px 12px rgba(36,20,8,.18)}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+    .logo{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.55rem;letter-spacing:.5px;color:var(--brown-deep)}
+    .logo .smile{width:38px;height:38px;background:var(--brown-deep);border-radius:50%;display:grid;place-items:center;font-size:20px}
+    .logo small{font-size:.62rem;letter-spacing:2.5px;display:block;font-weight:700;color:var(--brown-mid);margin-top:-4px}
+    .nav-links{display:flex;gap:26px;list-style:none}
+    .nav-links a{font-weight:600;font-size:.95rem;color:var(--brown-deep);padding:6px 2px;border-bottom:3px solid transparent}
+    .nav-links a:hover{border-color:var(--brown-deep)}
+    .nav-cta{display:flex;align-items:center;gap:12px}
+    .btn-phone{background:var(--brown-deep);color:var(--amber-light);font-weight:700;padding:11px 20px;border-radius:50px;font-size:.92rem;white-space:nowrap}
+    .btn-phone:hover{background:#000}
+    .burger{display:none;background:none;border:0;font-size:1.6rem;color:var(--brown-deep);cursor:pointer}
+
+    /* ===== Hero ===== */
+    .hero{background:var(--brown-deep);color:var(--cream)}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;padding:64px 0}
+    .hero h1{font-size:clamp(2rem,4.6vw,3.3rem);color:var(--cream)}
+    .hero h1 em{font-style:normal;color:var(--amber)}
+    .hero p{color:#e8dccb;font-size:1.08rem;margin:18px 0 28px;max-width:520px}
+    .hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+    .btn{display:inline-block;font-weight:700;padding:14px 28px;border-radius:50px;font-size:1rem}
+    .btn-amber{background:var(--amber);color:var(--brown-deep)}
+    .btn-amber:hover{background:var(--amber-light)}
+    .btn-ghost{border:2px solid var(--amber);color:var(--amber-light)}
+    .btn-ghost:hover{background:rgba(246,180,30,.12)}
+    .hero img{border-radius:22px;box-shadow:0 18px 40px rgba(0,0,0,.45);width:100%;height:400px;object-fit:cover}
+    .hero-stats{display:flex;gap:30px;margin-top:30px;flex-wrap:wrap}
+    .hero-stats div strong{display:block;font-size:1.5rem;color:var(--amber)}
+    .hero-stats div span{font-size:.85rem;color:#cbb9a4}
+
+    /* ===== Popular cards ===== */
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .card{background:var(--white);border-radius:var(--radius);overflow:hidden;box-shadow:0 6px 18px rgba(58,36,21,.09)}
+    .card img{height:200px;width:100%;object-fit:cover}
+    .card-body{padding:20px 22px 24px}
+    .card-body h3{font-size:1.15rem;margin-bottom:6px}
+    .card-body p{font-size:.92rem;color:var(--muted)}
+    .price-row{display:flex;justify-content:space-between;align-items:center;margin-top:14px}
+    .price{font-weight:800;font-size:1.2rem;color:var(--brown)}
+    .tag{background:#fdf1d4;color:var(--brown-mid);font-size:.72rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:4px 12px;border-radius:50px}
+
+    /* ===== Menu ===== */
+    #menu{background:var(--white)}
+    .menu-cat{margin-bottom:52px}
+    .menu-cat h2{background:var(--amber);color:var(--brown-deep);display:inline-block;padding:10px 22px;border-radius:50px;font-size:1.25rem;margin-bottom:6px}
+    .menu-cat .cat-note{color:var(--muted);font-size:.92rem;margin:8px 0 16px;font-style:italic}
+    .menu-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 28px;list-style:none}
+    .mi{display:flex;justify-content:space-between;gap:16px;padding:11px 4px;border-bottom:1px dashed #e6d7bf}
+    .mi strong{display:block;font-size:.97rem;color:var(--brown)}
+    .mi span{font-size:.84rem;color:var(--muted)}
+    .mi b{white-space:nowrap;color:var(--brown);font-size:1rem}
+    .menu-note{text-align:center;color:var(--muted);font-size:.88rem;margin-top:10px}
+
+    /* ===== Articles ===== */
+    .articles{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+    article{background:var(--white);border-radius:var(--radius);padding:28px;box-shadow:0 6px 18px rgba(58,36,21,.09)}
+    article h3{font-size:1.25rem;margin-bottom:12px}
+    article p{font-size:.94rem;color:#4d3823;margin-bottom:12px}
+    article p:last-child{margin-bottom:0}
+
+    /* ===== FAQ ===== */
+    #faq{background:var(--white)}
+    .faq-list{max-width:820px;margin:0 auto}
+    details{border:1px solid #ecd9b8;border-radius:14px;margin-bottom:12px;background:var(--cream)}
+    details summary{cursor:pointer;list-style:none;padding:18px 22px;font-weight:700;color:var(--brown);display:flex;justify-content:space-between;align-items:center;gap:14px}
+    details summary::after{content:"+";font-size:1.4rem;color:var(--amber-dark);flex-shrink:0}
+    details[open] summary::after{content:"–"}
+    details p{padding:0 22px 18px;color:#4d3823;font-size:.95rem}
+
+    /* ===== Double column (above footer) ===== */
+    .dual{background:var(--brown);color:#eadcc6;padding:64px 0}
+    .dual-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+    .dual h2{color:var(--amber);font-size:1.55rem;margin-bottom:18px}
+    .contact-item{display:flex;gap:14px;align-items:flex-start;margin-bottom:18px}
+    .contact-item .ico{width:44px;height:44px;flex-shrink:0;background:rgba(246,180,30,.14);border-radius:12px;display:grid;place-items:center;font-size:1.2rem}
+    .contact-item strong{display:block;color:#fff}
+    .contact-item a{color:var(--amber-light)}
+    .contact-item a:hover{text-decoration:underline}
+    .why-list{list-style:none}
+    .why-list li{padding:10px 0 10px 34px;position:relative;border-bottom:1px solid rgba(234,220,198,.14);font-size:.96rem}
+    .why-list li:last-child{border-bottom:0}
+    .why-list li::before{content:"✔";position:absolute;left:0;color:var(--amber);font-weight:900}
+
+    /* ===== Footer ===== */
+    footer{background:var(--brown-deep);color:#bda88e;padding:52px 0 0;font-size:.9rem}
+    .foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1.1fr;gap:36px;padding-bottom:40px}
+    footer h4{color:var(--amber);margin-bottom:14px;font-size:1rem}
+    footer ul{list-style:none}
+    footer li{margin-bottom:8px}
+    footer a:hover{color:var(--amber-light)}
+    .foot-logo{font-weight:900;font-size:1.4rem;color:var(--amber);margin-bottom:12px}
+    .foot-bottom{border-top:1px solid rgba(246,180,30,.15);padding:18px 0;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.82rem}
+
+    /* ===== Responsive ===== */
+    @media(max-width:960px){
+      .cards,.articles{grid-template-columns:repeat(2,1fr)}
+      .hero-grid{grid-template-columns:1fr;padding:46px 0}
+      .hero img{height:300px}
+      .foot-grid{grid-template-columns:1fr 1fr}
+    }
+    @media(max-width:680px){
+      .nav-links{position:fixed;top:72px;left:0;right:0;background:var(--amber);flex-direction:column;gap:0;padding:0 20px;max-height:0;overflow:hidden;transition:max-height .3s ease;box-shadow:0 12px 16px rgba(36,20,8,.15)}
+      .nav-links.open{max-height:400px}
+      .nav-links a{display:block;padding:14px 0;border-bottom:1px solid rgba(36,20,8,.12)}
+      .burger{display:block}
+      .btn-phone span{display:none}
+      .btn-phone{padding:11px 15px}
+      .cards,.articles,.menu-grid,.dual-grid{grid-template-columns:1fr}
+      .section{padding:54px 0}
+      .foot-grid{grid-template-columns:1fr}
+      .hero-stats{gap:20px}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="#start" aria-label="Foodez Longton – strona główna">
+        <span class="smile" aria-hidden="true">😋</span>
+        <span>FOODEZ<small>PIZZAS &amp; KEBABS</small></span>
+      </a>
+      <nav aria-label="Nawigacja główna">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#start">Start</a></li>
+          <li><a href="#popularne">Popularne</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#artykuly">Artykuły</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn-phone" href="tel:+441782321775">📞 <span>01782</span> 321775</a>
+        <button class="burger" id="burgerBtn" aria-label="Otwórz menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="start">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="badge">Longton · Stoke-on-Trent</span>
+          <h1>Świeża <em>pizza</em>, wypasione <em>kebaby</em> i soczyste <em>burgery</em></h1>
+          <p>Foodez przy 62 Anchor Road serwuje pizze na codziennie świeżym cieście, 12 rodzajów kebabów i grillowane burgery. Zamów telefonicznie lub online — dostawa w Longton i okolicach.</p>
+          <div class="hero-btns">
+            <a class="btn btn-amber" href="#menu">Zobacz menu</a>
+            <a class="btn btn-ghost" href="tel:+441782321775">Zadzwoń: 01782 321775</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>24</strong><span>pizze w menu</span></div>
+            <div><strong>12</strong><span>rodzajów kebabu</span></div>
+            <div><strong>£6.50</strong><span>value boxy od</span></div>
+            <div><strong>8</strong><span>smaków shake'ów</span></div>
+          </div>
+        </div>
+        <img src="images/hero-food.jpg" alt="Ucztowa oferta Foodez – pizza pepperoni, burger z kurczakiem, kebab i frytki">
+      </div>
+    </section>
+
+    <!-- ================= POPULARNE ================= -->
+    <section class="section" id="popularne">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Najczęściej zamawiane</h2>
+          <p>Pozycje, które goście Foodez wybierają najchętniej — wg platform dostaw.</p>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <img src="images/kebab-special.jpg" alt="Foodez Kebab Special – mix mięs z grilla z frytkami i pitta" loading="lazy">
+            <div class="card-body">
+              <h3>Foodez Kebab Special</h3>
+              <p>Doner, kurczak, chicken tikka, stek i shish z frytkami, 2 pitta i Pepsi — w pudełku 10".</p>
+              <div class="price-row"><span class="price">£19.99</span><span class="tag">Bestseller</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/pepperoni-pizza.jpg" alt="Pizza Pepperoni na świeżym cieście z podwójnym pepperoni" loading="lazy">
+            <div class="card-body">
+              <h3>Pepperoni Pizza</h3>
+              <p>Podwójne pepperoni na codziennie świeżym cieście i najlepszym serze.</p>
+              <div class="price-row"><span class="price">£7.50</span><span class="tag">Popularne</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/zinger-burger.jpg" alt="Chrupiący Zinger Burger z filetem z kurczaka" loading="lazy">
+            <div class="card-body">
+              <h3>Zinger Burger</h3>
+              <p>Chrupiący filet z kurczaka w przypiekanej bułce z sałatą i sosem do wyboru.</p>
+              <div class="price-row"><span class="price">£6.00</span><span class="tag">Klasyk</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/peri-peri.jpg" alt="Pół kurczaka peri-peri z frytkami i sałatą" loading="lazy">
+            <div class="card-body">
+              <h3>Peri-Peri z frytkami</h3>
+              <p>Pół lub cały kurczak z grilla w stylu peri-peri, z frytkami, sałatą i sosem.</p>
+              <div class="price-row"><span class="price">od £10.00</span><span class="tag">Z grilla</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/hero-food.jpg" alt="Chicken Strips Value Box z frytkami i donerem" loading="lazy">
+            <div class="card-body">
+              <h3>Chicken Strips Value Box</h3>
+              <p>5 strypsów, frytki i doner — jeden z najchętniej wybieranych boxów.</p>
+              <div class="price-row"><span class="price">£8.00</span><span class="tag">Value box</span></div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/milkshake.jpg" alt="Gęsty shake Oreo 16 oz z bitą śmietaną" loading="lazy">
+            <div class="card-body">
+              <h3>Milkshake'i 16 oz</h3>
+              <p>8 smaków: Oreo, Snickers, KitKat, Kinder Bueno White, Mars i więcej.</p>
+              <div class="price-row"><span class="price">£5.30</span><span class="tag">Deser</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MENU ================= -->
+    <section class="section" id="menu">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Menu Foodez</h2>
+          <p>Aktualne pozycje i ceny z oficjalnego menu Foodez (Longton). Wszystkie kebaby podajemy ze świeżą sałatą i sosem.</p>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🍕 Pizza</h2>
+          <p class="cat-note">Ciasto wyrabiamy świeżo każdego dnia i używamy sera najlepszej jakości. Rozmiary: 10", 12", 16", 20".</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Pepperoni</strong><span>Podwójne pepperoni</span></div><b>£7.50</b></li>
+            <li class="mi"><div><strong>Margherita</strong><span>Ser i pomidor</span></div><b>£7.00</b></li>
+            <li class="mi"><div><strong>Garlic Margherita</strong><span>Czosnek, ser, pomidor</span></div><b>£7.00</b></li>
+            <li class="mi"><div><strong>Chicken Tikka</strong><span>Kurczak tikka, ser, pomidor</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>BBQ Chicken</strong><span>Baza BBQ, kurczak BBQ</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Chicken Supreme</strong><span>Kurczak tikka, kurczak, kukurydza, zielona papryka</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Hawaiian</strong><span>Szynka i ananas</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Vegetarian</strong><span>Cebula, papryka, pieczarki, kukurydza, oliwki</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Doner Pizza</strong><span>Podwójny doner</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Meat Lovers</strong><span>Pepperoni, mix kurczaka, doner, pikantna wołowina, szynka</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Hot Shot</strong><span>Pepperoni, ostre chili, pikantna wołowina, pieczarki</span></div><b>£7.50</b></li>
+            <li class="mi"><div><strong>Italian Job</strong><span>Pepperoni, pikantna wołowina, cebula, papryka, jalapeño</span></div><b>£7.50</b></li>
+            <li class="mi"><div><strong>Foodez Pizza</strong><span>Pepperoni, pikantna wołowina, cebula, papryka, jalapeño</span></div><b>£7.50</b></li>
+            <li class="mi"><div><strong>American Hot</strong><span>Kurczak tikka, pikantna wołowina, jalapeño, cebula</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Asian Style</strong><span>Kurczak, pikantna wołowina, cebula, jalapeño</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Apollo</strong><span>Kurczak, pieczarki, kukurydza</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Houston</strong><span>Szynka, pieczarki, kukurydza</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Farm House</strong><span>Szynka, pieczarki, cebula</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Tropical</strong><span>Szynka, ananas, pieczarki, kukurydza</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Fish Net</strong><span>Cebula, pieczarki, krewetki, tuńczyk</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Beeny</strong><span> </span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Create Your Own</strong><span>Dowolne 4 składniki do wyboru</span></div><b>£7.50</b></li>
+            <li class="mi"><div><strong>20" Half and Half</strong><span>Jedna pizza, dwa smaki</span></div><b>£22.00</b></li>
+            <li class="mi"><div><strong>Calzone 10"</strong><span> </span></div><b>£9.00</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🥙 Kebaby</h2>
+          <p class="cat-note">Wszystkie kebaby podajemy ze świeżą sałatą i sosem.</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Doner Kebab</strong></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Shish Kebab</strong></div><b>£6.00</b></li>
+            <li class="mi"><div><strong>Chicken Kebab</strong></div><b>£7.00</b></li>
+            <li class="mi"><div><strong>Chicken Tikka Kebab</strong></div><b>£7.00</b></li>
+            <li class="mi"><div><strong>Chicken Shawarma</strong></div><b>£7.50</b></li>
+            <li class="mi"><div><strong>Portion of Doner Meat</strong></div><b>£7.50</b></li>
+            <li class="mi"><div><strong>Steak Kebab</strong></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Lamb Kebab</strong></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Shawarma + Doner</strong></div><b>£8.50</b></li>
+            <li class="mi"><div><strong>Mixed Chicken + Doner</strong></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Mixed Tikka + Doner</strong></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Shawarma + Chips</strong></div><b>£7.50</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🍔 Burgery specjalne</h2>
+          <p class="cat-note">Nie wchodzą w skład meal boxów.</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Yankee Burger</strong><span>Potrójny grillowany, ser, jalapeño, sos amerykański</span></div><b>£9.50</b></li>
+            <li class="mi"><div><strong>Lakers Burger</strong><span>Potrójny grillowany, roztopiony ser, onion ring</span></div><b>£10.00</b></li>
+            <li class="mi"><div><strong>Foodez Grill Special</strong><span>Wołowy + drobiowy, doner, ser</span></div><b>£9.50</b></li>
+            <li class="mi"><div><strong>Foodez Burger</strong><span>Cheeseburger, burger drobiowy, jajko</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>Hot Tower</strong><span>2 burgery, ser, jalapeño</span></div><b>£8.50</b></li>
+            <li class="mi"><div><strong>Mega Burger</strong><span>Cheeseburger, burger drobiowy, hash brown</span></div><b>£8.50</b></li>
+            <li class="mi"><div><strong>Chilli Burger</strong><span>Chili cheese i wołowina</span></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Ham Burger</strong><span>Szynka, jajko, ser</span></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Tikka Burger</strong><span>Kurczak tikka i ser</span></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Hash Brown Burger</strong><span>2 hash browny i ser</span></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>American Burger</strong><span>Wołowina, jajko, ser</span></div><b>£6.50</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🍔 Burgery klasyczne</h2>
+          <p class="cat-note">Podawane w przypiekanej bułce z sałatą i sosami do wyboru.</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Beef Burger</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Veggie Burger</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Cheeseburger</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Chicken Burger</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Hawaiian Burger</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Zinger Burger</strong></div><b>£6.00</b></li>
+            <li class="mi"><div><strong>Chicken Fillet Burger</strong></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Cheese Egg Burger</strong></div><b>£6.50</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>📦 Boxy i zestawy</h2>
+          <p class="cat-note">Kompletne zestawy z frytkami — idealne na lunch lub kolację.</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Foodez Kebab Special</strong><span>Doner, kurczak, tikka, stek, shish, frytki, 2 pitta, Pepsi</span></div><b>£19.99</b></li>
+            <li class="mi"><div><strong>Fbig Boy Meal 1</strong><span>2 szt. kurczaka, 3 nuggetsy, 3 strypsy, doner, frytki, Pepsi</span></div><b>£11.99</b></li>
+            <li class="mi"><div><strong>Foodezbox2</strong><span>Cheeseburger lub chicken burger, 3 hash browny, 3 strypsy, doner, frytki, Pepsi</span></div><b>£10.50</b></li>
+            <li class="mi"><div><strong>Foodezbox3</strong><span>Chicken fillet burger, 1 szt. kurczaka, 2 pikantne skrzydełka, frytki, Pepsi</span></div><b>£10.00</b></li>
+            <li class="mi"><div><strong>Foodez Naan Special</strong><span>Dowolny kebab, frytki, naan, Pepsi</span></div><b>£9.99</b></li>
+            <li class="mi"><div><strong>Foodezbox1</strong><span>Beef, cheese lub chicken burger, frytki, doner, Pepsi</span></div><b>£9.70</b></li>
+            <li class="mi"><div><strong>Foodez Special2</strong><span>Mix doner + shawarma, frytki, Pepsi</span></div><b>£9.50</b></li>
+            <li class="mi"><div><strong>Chicken Strips Value Box</strong><span>5 strypsów, frytki, doner</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>3 Pc Value Box</strong><span>3 szt. kurczaka, frytki, doner</span></div><b>£10.00</b></li>
+            <li class="mi"><div><strong>2 Pc Value Box</strong><span>2 szt. kurczaka, frytki, doner</span></div><b>£8.00</b></li>
+            <li class="mi"><div><strong>1 Pc Value Box</strong><span>1 szt. kurczaka, frytki, doner</span></div><b>£7.00</b></li>
+            <li class="mi"><div><strong>Hot Wings Value Box</strong><span>5 pikantnych skrzydełek, frytki, doner</span></div><b>£7.00</b></li>
+            <li class="mi"><div><strong>Nuggets Value Box</strong><span>5 nuggetsów, frytki, doner</span></div><b>£6.50</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🎉 Meal Deals i Pizza Deals</h2>
+          <p class="cat-note">Zestawy dla rodziny i znajomych — z butelką Pepsi.</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Variety Box 1</strong><span>2 szt. kurczaka, duże frytki, duży doner, butelka Pepsi</span></div><b>£13.50</b></li>
+            <li class="mi"><div><strong>Deluxe Box</strong><span>Kurczak tikka, doner, kurczak, starty ser, Pepsi</span></div><b>£11.00</b></li>
+            <li class="mi"><div><strong>Family Burger Meal 1</strong><span>3 cheeseburgery, 3 frytki, butelka Pepsi</span></div><b>£20.00</b></li>
+            <li class="mi"><div><strong>Family Burger Meal 2</strong><span>3 chicken fillet burgery, 3 frytki, butelka Pepsi</span></div><b>£21.00</b></li>
+            <li class="mi"><div><strong>Home Alone 1</strong><span>Zinger burger, 3 skrzydełka, 3 nuggetsy, frytki, Pepsi</span></div><b>£10.00</b></li>
+            <li class="mi"><div><strong>Home Alone 2</strong><span>Calzone, frytki, sos, Pepsi</span></div><b>£11.00</b></li>
+            <li class="mi"><div><strong>Bargain Bucket 1</strong><span>6 szt. kurczaka, duże frytki, duży doner, butelka Pepsi</span></div><b>£20.00</b></li>
+            <li class="mi"><div><strong>Pizza Offer 1</strong><span>Dowolna pizza 10", 2 szt. kurczaka, doner, frytki, Pepsi</span></div><b>£16.50</b></li>
+            <li class="mi"><div><strong>Pizza Deal 1</strong><span>Pizza 10", 6 skrzydełek lub nuggetsów, frytki, Pepsi</span></div><b>£16.00</b></li>
+            <li class="mi"><div><strong>Pizza Offer 2</strong><span>Pizza 12", 3 szt. kurczaka, doner, frytki, sernik, Pepsi</span></div><b>£21.00</b></li>
+            <li class="mi"><div><strong>Pizza Deal 2</strong><span>Pizza 12", garlic bread cheese 10", doner, 8 onion rings, duże frytki, Pepsi</span></div><b>£23.00</b></li>
+            <li class="mi"><div><strong>Pizza Offer 3</strong><span>Pizza 16", 4 szt. kurczaka, doner, frytki, sernik, Pepsi</span></div><b>£26.50</b></li>
+            <li class="mi"><div><strong>Pizza Deal 3</strong><span>Pizza 16", garlic bread cheese 10", doner, 6 strypsów, 8 onion rings, duże frytki, Pepsi</span></div><b>£28.00</b></li>
+            <li class="mi"><div><strong>Pizza Offer 4</strong><span>Pizza 20", duży doner, 6 nuggetsów, 6 onion rings, duże frytki, Pepsi</span></div><b>£32.50</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🔥 Peri-Peri i kurczak</h2>
+          <p class="cat-note">Peri-peri podawane z sałatą i dowolnym sosem.</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Half Peri-Peri Chicken + Chips</strong></div><b>£10.00</b></li>
+            <li class="mi"><div><strong>Full Peri-Peri Chicken + Chips</strong></div><b>£15.00</b></li>
+            <li class="mi"><div><strong>1 Piece Chicken</strong></div><b>£2.30</b></li>
+            <li class="mi"><div><strong>1 Pc Chicken + Chips</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>2 Pc Chicken + Chips</strong></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>3 Pc Chicken + Chips</strong></div><b>£8.50</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🌯 Wrapy, nudle i omlety</h2>
+          <p class="cat-note">Wrapy z sałatą i sosem · nudle gotowane świeżo na zamówienie.</p>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Chicken Tikka Wrap</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Chicken Wrap</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Doner Wrap</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Shawarma Wrap</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Spicy Chicken Fillet Wrap</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Egg &amp; Cheese Wrap</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Mix Wrap</strong><span>Kurczak tikka i doner</span></div><b>£6.00</b></li>
+            <li class="mi"><div><strong>Salad Wrap</strong></div><b>£4.00</b></li>
+            <li class="mi"><div><strong>Chicken Tikka Noodles</strong></div><b>£5.80</b></li>
+            <li class="mi"><div><strong>Chicken Noodles</strong></div><b>£5.80</b></li>
+            <li class="mi"><div><strong>Asian Noodles</strong><span>Kurczak i pikantna wołowina (ostre)</span></div><b>£5.80</b></li>
+            <li class="mi"><div><strong>Spicy Beef Noodles</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Prawn Noodles</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Vegetable Noodles</strong><span>Mieszane warzywa</span></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Meat Lovers Noodle</strong><span>Szynka, pepperoni, kurczak</span></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Plain Omelette</strong></div><b>£4.00</b></li>
+            <li class="mi"><div><strong>Cheese Omelette</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Chicken Omelette</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Mushroom Omelette</strong></div><b>£5.30</b></li>
+            <li class="mi"><div><strong>Ham / Pepperoni Omelette</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Mix Omelette</strong><span>Szynka, kurczak, pepperoni</span></div><b>£6.50</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🧄 Dodatki</h2>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Chips</strong></div><b>£2.50</b></li>
+            <li class="mi"><div><strong>Peri-Peri Chips</strong></div><b>£3.50</b></li>
+            <li class="mi"><div><strong>Chips &amp; Cheese</strong></div><b>£3.50</b></li>
+            <li class="mi"><div><strong>Curly Fries</strong></div><b>£4.60</b></li>
+            <li class="mi"><div><strong>Potato Wedges</strong></div><b>£4.60</b></li>
+            <li class="mi"><div><strong>Garlic Bread</strong></div><b>£5.00</b></li>
+            <li class="mi"><div><strong>Garlic Bread &amp; Cheese</strong></div><b>£6.00</b></li>
+            <li class="mi"><div><strong>Garlic Bread Supreme</strong><span>Z pieczarkami i serem</span></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Onion Rings (10 szt.)</strong></div><b>£4.30</b></li>
+            <li class="mi"><div><strong>Mozzarella Sticks (5 szt.)</strong></div><b>£4.80</b></li>
+            <li class="mi"><div><strong>Jalapeño Cheese Cream (5 szt.)</strong></div><b>£4.50</b></li>
+            <li class="mi"><div><strong>Hash Browns (4 szt.)</strong></div><b>£3.60</b></li>
+            <li class="mi"><div><strong>Chicken Nuggets (6 szt.)</strong></div><b>£4.00</b></li>
+            <li class="mi"><div><strong>Hot Wings (6 szt.)</strong></div><b>£5.50</b></li>
+            <li class="mi"><div><strong>Popcorn Chicken</strong></div><b>£6.50</b></li>
+            <li class="mi"><div><strong>Chip Naan</strong></div><b>£4.00</b></li>
+            <li class="mi"><div><strong>Doner Bap</strong></div><b>£4.00</b></li>
+            <li class="mi"><div><strong>Jacket Potato</strong></div><b>£3.20</b></li>
+            <li class="mi"><div><strong>Dips</strong></div><b>£0.70</b></li>
+          </ul>
+        </div>
+
+        <div class="menu-cat">
+          <h2>🍰 Desery i napoje</h2>
+          <ul class="menu-grid">
+            <li class="mi"><div><strong>Chocolate Fudge Cake</strong></div><b>£3.50</b></li>
+            <li class="mi"><div><strong>Cheesecake</strong></div><b>£3.50</b></li>
+            <li class="mi"><div><strong>Milkshake 16 oz</strong><span>Oreo, Snickers, KitKat, Smarties, Skittles, Mars, Kinder Bueno White, Maltesers</span></div><b>£5.30</b></li>
+            <li class="mi"><div><strong>Napoje 330 ml</strong><span>Coke, Diet Coke, Fanta, Pepsi, Sprite, Dr Pepper, Rio</span></div><b>£1.30</b></li>
+            <li class="mi"><div><strong>Water 500 ml</strong></div><b>£1.10</b></li>
+            <li class="mi"><div><strong>Red Bull 250 ml</strong></div><b>£2.50</b></li>
+            <li class="mi"><div><strong>Monster 500 ml</strong></div><b>£3.00</b></li>
+          </ul>
+          <p class="menu-note">Ceny zgodne z aktualnym menu Foodez (Longton) — mogą ulec zmianie. Zamówienia: <a href="tel:+441782321775"><strong>01782 321775</strong></a> lub <a href="https://foodez.co.uk" target="_blank" rel="noopener"><strong>foodez.co.uk</strong></a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ARTYKUŁY ================= -->
+    <section class="section" id="artykuly">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Z pizzerii Foodez</h2>
+          <p>Artykuły o tym, co wyróżnia Foodez w Longton.</p>
+        </div>
+        <div class="articles">
+          <article>
+            <h3>Świeże ciasto każdego dnia — sekret pizzy Foodez</h3>
+            <p>W Foodez wszystkie podstawy pizzy wyrabiane są świeżo każdego dnia, a na wierzch trafia ser najlepszej jakości. To prosta filozofia, która sprawia, że nawet klasyczna Margherita za £7.00 smakuje wyjątkowo.</p>
+            <p>Menu liczy 24 pozycje — od Chicken Tikka po mocne American Hot z jalapeño. Nie możesz się zdecydować? Opcja <strong>Create Your Own</strong> za £7.50 pozwala wybrać 4 dowolne składniki, a pizza 20" <strong>Half and Half</strong> (£22.00) łączy dwa smaki w jednym kartonie.</p>
+          </article>
+          <article>
+            <h3>Foodez Kebab Special — co kryje pudełko za £19.99?</h3>
+            <p>To najbardziej rozbudowana pozycja w menu: doner, kurczak, chicken tikka, stek i shish na warstwie frytek, z dwoma chlebkami pitta i puszką Pepsi — całość podana w pudełku po pizzy 10".</p>
+            <p>Poza nią dostępnych jest 11 innych kebabów, od klasycznego Donera za £6.50 po Steak i Lamb po £8.00. Każdy podajemy ze świeżą sałatą i ulubionym sosem — wystarczy powiedzieć przy zamówieniu.</p>
+          </article>
+          <article>
+            <h3>Jak zamawiać sprytnie: boxy i oferty rodzinne</h3>
+            <p>Value boxy zaczynają się już od £6.50 (nuggetsy, frytki i doner), a Chicken Strips Value Box za £8.00 to jeden z najczęściej wybieranych posiłków. Na większy głód sprawdzi się Fbig Boy Meal za £11.99.</p>
+            <p>Dla całej rodziny przygotowano Family Burger Meal 1 i 2 (od £20.00) oraz cztery Pizza Deals z butelką Pepsi — największy, z pizzą 20", kosztuje £32.50 i spokojnie nakarmi cztery osoby.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section" id="faq">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Najczęstsze pytania</h2>
+          <p>Masz pytanie? Zadzwoń: <a href="tel:+441782321775"><strong>01782 321775</strong></a>.</p>
+        </div>
+        <div class="faq-list">
+          <details open>
+            <summary>Gdzie znajduje się Foodez?</summary>
+            <p>Foodez znajduje się pod adresem <strong>62 Anchor Road, Longton, Stoke-on-Trent ST3 1LH</strong>, Wielka Brytania — w samym centrum Longton.</p>
+          </details>
+          <details>
+            <summary>Jak złożyć zamówienie?</summary>
+            <p>Zamówisz telefonicznie pod numerem <strong>+44 1782 321775</strong>, online przez <a href="https://foodez.co.uk" target="_blank" rel="noopener">foodez.co.uk</a> oraz przez platformy dostaw, takie jak Deliveroo i Foodhub.</p>
+          </details>
+          <details>
+            <summary>Jakie rozmiary pizzy są dostępne?</summary>
+            <p>Pizze pieczemy w rozmiarach <strong>10", 12", 16" i 20"</strong>. Dostępna jest też wersja 20" half-and-half (£22.00) oraz Create Your Own z 4 dowolnymi składnikami (£7.50).</p>
+          </details>
+          <details>
+            <summary>Czy są opcje wegetariańskie?</summary>
+            <p>Tak — m.in. <strong>Vegetarian Pizza</strong> (£8.00), Margherita, Veggie Burger, Salad Wrap (£4.00), Vegetable Noodles, omlety oraz dodatki: frytki, onion rings, mozzarella sticks i popcorn chicken w wersji bezmięsnej nie występuje, ale lista dodatków roślinnych jest długa.</p>
+          </details>
+          <details>
+            <summary>Co zawiera Foodez Kebab Special?</summary>
+            <p>Mix doner, kurczaka, chicken tikka, steka i shish z frytkami, dwoma pitta i puszką Pepsi — podawany w pudełku po pizzy 10". Cena: <strong>£19.99</strong>.</p>
+          </details>
+          <details>
+            <summary>Czy w Foodez są desery i napoje?</summary>
+            <p>Tak: cheesecake i chocolate fudge cake (po £3.50), 8 smaków gęstych shake'ów 16 oz (Oreo, Snickers, KitKat, Kinder Bueno White, Mars, Maltesers, Smarties, Skittles — £5.30) oraz napoje gazowane od £1.30.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DOUBLE COLUMN (nad footerem) ================= -->
+    <section class="dual" id="kontakt">
+      <div class="wrap dual-grid">
+        <div>
+          <h2>Kontakt i zamówienia</h2>
+          <div class="contact-item">
+            <span class="ico" aria-hidden="true">📍</span>
+            <div><strong>Adres</strong>62 Anchor Road, Longton<br>Stoke-on-Trent ST3 1LH, UK</div>
+          </div>
+          <div class="contact-item">
+            <span class="ico" aria-hidden="true">📞</span>
+            <div><strong>Telefon</strong><a href="tel:+441782321775">+44 1782 321775</a></div>
+          </div>
+          <div class="contact-item">
+            <span class="ico" aria-hidden="true">🛒</span>
+            <div><strong>Zamów online</strong><a href="https://foodez.co.uk" target="_blank" rel="noopener">foodez.co.uk</a> · Deliveroo · Foodhub</div>
+          </div>
+          <div class="contact-item">
+            <span class="ico" aria-hidden="true">👍</span>
+            <div><strong>Facebook</strong><a href="https://www.facebook.com/Foodez.uk" target="_blank" rel="noopener">facebook.com/Foodez.uk</a></div>
+          </div>
+        </div>
+        <div>
+          <h2>Dlaczego Foodez?</h2>
+          <ul class="why-list">
+            <li>Ciasto na pizzę wyrabiane świeżo każdego dnia</li>
+            <li>24 pizze i 12 kebabów do wyboru</li>
+            <li>Value boxy już od £6.50 — także z donerem</li>
+            <li>Potrójne burgery grillowane: Yankee i Lakers</li>
+            <li>Peri-peri z grilla: pół lub cały kurczak</li>
+            <li>8 smaków gęstych shake'ów 16 oz</li>
+            <li>Realne ceny, bez ukrytych dodatków</li>
+            <li>Dostawa w Longton i okolicach Stoke-on-Trent</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <p class="foot-logo">FOODEZ</p>
+          <p>Pizza, kebab i burgery w Longton. Świeże składniki, uczciwe ceny i szybka dostawa — od 62 Anchor Road prosto pod Twoje drzwi.</p>
+        </div>
+        <div>
+          <h4>Nawigacja</h4>
+          <ul>
+            <li><a href="#start">Start</a></li>
+            <li><a href="#popularne">Popularne</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#artykuly">Artykuły</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="#menu">Pizza</a></li>
+            <li><a href="#menu">Kebaby</a></li>
+            <li><a href="#menu">Burgery</a></li>
+            <li><a href="#menu">Boxy i zestawy</a></li>
+            <li><a href="#menu">Desery i napoje</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kontakt</h4>
+          <ul>
+            <li>62 Anchor Road, Longton</li>
+            <li>Stoke-on-Trent ST3 1LH</li>
+            <li><a href="tel:+441782321775">01782 321775</a></li>
+            <li><a href="https://foodez.co.uk" target="_blank" rel="noopener">foodez.co.uk</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 <strong>foodez.net</strong> — Foodez Longton. Wszelkie prawa zastrzeżone.</span>
+        <span>Ceny na podstawie aktualnego menu i mogą ulec zmianie.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('burgerBtn');
+    const links = document.getElementById('navLinks');
+    btn.addEventListener('click', () => {
+      const open = links.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open);
+      btn.textContent = open ? '✕' : '☰';
+    });
+    links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      links.classList.remove('open');
+      btn.textContent = '☰';
+      btn.setAttribute('aria-expanded', 'false');
+    }));
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a58e6a621e6cb7f7',t:'MTc5NDQxMTgzNw=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a58e6a621e6cb7f7',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
